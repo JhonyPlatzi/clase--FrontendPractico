@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 243, 226);
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+main h1{
+    font-size: 3rem;
+    
+}
+
+.clases-container{
+    display: grid;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 120px 120px; 
+}
+
+.clases-container .clase{
+    margin: 2px;
+    border: 0;
+    border-radius: 5px;
+    background-color: chocolate;
+}
+.clases-container .clase:hover{
+    background-color: rgb(163, 68, 0);
+}
+
+
+.clases-container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 400;
+}
