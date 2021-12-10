@@ -26,8 +26,8 @@ main h1{
     margin: 0 auto;
     margin-top: 20px;
     justify-content: center;
-    grid-template-rows: 100px 100px;
-    grid-template-columns: 120px 120px; 
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 120px 120px ; 
 }
 
 .clases-container .clase{
