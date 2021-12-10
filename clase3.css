@@ -4,6 +4,7 @@
     --very-light-pink: #c7c7c7; /*no se porque la maestra uso este nombre*/
     --text-input-field: #f7f7f7;
     --hospital-green: #ffe800;
+    --orange: #f97b00;
     --sm: 1.4rem;
     --md: 1.6rem;
     --lg: 1.8rem;
@@ -40,20 +41,6 @@ html{
     display: block;
 }
 
-.title{
-    font-size: var(--lg);
-    margin-bottom: 12px;
-    text-align: center;
-}
-
-.subtitle{
-    color: var(--very-light-pink);
-    font-size: var(--md);
-    font-weight: 300;
-    margin-bottom: 30px;
-    margin-top: 0;
-    text-align: center;
-}
 
 .label{
     font-size: var(--sm);
@@ -73,9 +60,29 @@ html{
 
 }
 
+.input-email{
+    margin-bottom: 22px;
+}
+
 .form{
     display: flex;
     flex-direction: column;
+}
+
+.form-container a{
+    color: var(--orange);
+    padding: 10px;
+    width: 200px;
+    margin-left: 50px;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 40px;
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+
+    
 }
 
 .primary-button{
@@ -88,6 +95,19 @@ html{
     cursor: pointer;
     font-size: var(--md);
     font-weight: bolder;
+}
+
+.secondary-button{
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--orange);
+    color: var(--black);
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bolder;
+    margin-bottom: 30px;
 }
 
 .login-button{
